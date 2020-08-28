@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+
+<head>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Josefin+Sans" rel="stylesheet">
+
+<meta charset="utf-8">
+<title>Claudia Noack</title>
+<style>
+#myDIV1, #myDIV2  {
+  width: 100%;
+  padding: 0px 0;
+  text-align: center;
+  background-color: #FFF;
+  margin-top: 0px;
+  display: none; 
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+<header> 
+<p style="text-align: left;">&nbsp;</p>
+<h1 style="text-align: center;"><span style="font-size: 40px";> <span style="color=black";>  <a class="h1" href="index.html"> CLAUDIA NOACK </a>  </span></span></h1>
+<p style="text-align:center;  justify-content: justify;font-size: 16px;  font-family: 'Josefin Sans', sans-serif;">
+   <a href="research.html" style="color:red;"> Research </a> &nbsp &nbsp &nbsp
+ <a href="teaching.html">Teaching</a>   &nbsp &nbsp &nbsp
+ <a href="short_cv.html"> CV </a>
+   </span>
+</p>    </header>
+
+
+
+<section>
+<div class="empty"> &nbsp </div>
+<div>
+<h3><span style="font-size: 20px;"> Working Papers </span></h3>
+<p style="text-align: left;"><span style="font-weight: bold;">Sensitivity Analysis of LATE estimates to a Violation of the
+ Monotonicity Assumption.</span> [<button class="button" onclick="myFunction1()"> Abstract</button>]  [<a href="" target="_blank">Paper</a>]  </p>
+ 
+ <span style="color: dimgrey;"> Presented at ESWC 2020,  ESEM-EEA 2019 (Manchester), IAAE 2019 (Nicosia), 1st  Econometric Institute International PhD Conference 2019 (Rotterdam), Yale University 2019, University of Heidelberg 2018, Bonn-Mannheim Workshop 2018 
+</span>
+<!--- <p style="color: gray;">  As one might doubt the validity of the monotonicity assumption in many different emoiricial context,
+  I propose a sensitivity analysis to quantify the robustness of the estimates to a potential violation.  </p> --->
+
+ 
+<div id="myDIV1">
+<p class=ex2> This paper presents a method to assess 
+the sensitivity of treatment effect estimates to potential violations of the monotonicity assumption. 
+I propose a model in which the degree to which monotonicity is violated is measured by two sensitivity parameters: 
+One determines the population size of defiers and the other treatment effect heterogeneity between compliers and defiers. 
+I identify the breakdown frontier, which is the set of sensitivity parameters that imply the weakest assumptions, 
+which are necessary to draw a particular empirical conclusion, e.g. the average treatment effect is positive.
+ Evaluating the plausibility of these parameters allows researchers to assess the credibility of this conclusion. 
+ I show how to conduct inference on these parameter estimates, where confidence sets are obtained through a bootstrap method.
+  The performance of the breakdown frontier estimator is evaluated in a Monte Carlo study and illustrated in an empirical example.</p>
+  <div> &nbsp </div>
+</div>
+
+
+
+<p style="text-align: left;">&nbsp;</p>
+
+
+<p style="text-align: justify;"><span style="font-weight: bold;">Bias-Aware Inference in Fuzzy Regression Discontinuity Designs</span> with Christoph Rothe,&nbsp; August 2020, &nbsp; &nbsp; 
+<br> revise &amp; resubmit <span style="font-style: italic;">Review of Economic Studies.</span> [<button class="button" onclick="myFunction2()">Abstract</button>] [<a href="#" target="_blank">R software</a>] [<a href="https://arxiv.org/abs/1906.04631" target="_blank">arxiv</a>]  </p>
+<!---  <p style="color: gray;"> We show that the validitiy of commonly used confidence sets break down in many empirical settings. We therefore propose new confidence sets, which are valid in all relevant secnarios, easy to implement and have favorable efficiency properties.
+</p>--->
+
+
+<div id="myDIV2">
+<p class=ex2>The confidence intervals (CIs) commonly reported in empirical fuzzy regression discontinuity studies are justified by theoretical arguments
+ which assume that the running variable is continuously distributed with positive density around the cutoff, and that the jump in treatment probabilities is 
+ &ldquo;large&rdquo; there. In this paper, we provide new confidence sets (CSs) that do not rely on such assumptions. Our CS have a construction; 
+ analogous to Anderson-Rubin CSs in the literature on instrumental variable models, are based on local linear regression, and are bias-aware, in the sense that they explicitly
+ take the possible smoothing bias into account. They are valid under a wide range of 
+ empirically relevant conditions in which existing CIs generally fail. These conditions 
+ include discrete running variables, donut designs, and weak identification. However, 
+ our CS also perform favorably relative to existing CIs in the canonical setting with a continuous running variable, and can thus be used in all fuzzy regression discontinuity applications.</p>
+</div>
+<p style="text-align: left;">&nbsp;</p>
+</div>
+
+
+
+<!---
+<div>
+<h3><span style="font-size: 20px;"> Work in Progress </span></h3>
+
+<p style="text-align: justify;"><span style="font-weight: bold;">Understanding Donut Regression Discontinuity Designs</span> with Christoph Rothe.</p>
+<p style="text-align: justify;"><span style="font-weight: bold;">Covariates in Regression Discontinuity</span> with Christoph Rothe and Tomasz Olma.</p>
+<p style="text-align: justify;"><span style="font-weight: bold;">Matching and Bootstrap</span> with Jasmin Fliegner.</p>
+</div>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+</div> --->
+</section>
+
+
+
+
+<script>
+function myFunction2() {
+  var x = document.getElementById("myDIV2");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+<script>
+function myFunction1() {
+  var x = document.getElementById("myDIV1");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+	</body>
+</html>

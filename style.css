@@ -1,0 +1,193 @@
+body {
+    color:#000000;
+    background-color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    }
+
+
+ div{
+  max-width:1000px;
+  margin: auto;
+  line-height: 1.6;
+  font-size: 13px;
+  max-width: 800px;
+   }
+
+
+  
+   
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Josefin Sans', sans-serif;
+ text-transform: uppercase;
+ weight: 700;
+}
+
+  
+  
+.contact{
+max-width: 400px;
+color: dimgrey;
+}  
+  
+ img { 
+  float: left;
+  width: 245px;
+  height: 350px;
+  margin-left: 5%;
+  margin-right: 10%;
+   display:block;
+  clear: right;
+ vertical-align: middle;
+ max-width: 245px;
+}
+  
+ 
+ .text-block {
+  bottom: 50px;
+  display: block;
+  width: 740px;
+  height: 350px;
+  padding-bottom:10px;
+}
+
+ 
+ 
+div.show {
+    display: block;
+    }
+
+div.hide {
+     display: none;
+    }
+
+	
+
+
+
+  
+ div.same, div.same2, div.same3{
+  display: block;
+  max-width: 800px;
+  text-align: left;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: 1.6;
+  color: dimgray;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  }
+  
+   div.same2{
+  max-width:800px;
+ }
+   div.same3{
+  max-width:100%;
+ }
+  
+p.ex2 {
+  max-width:700px;
+  font-size: 13px;
+  text-align: justify;
+  justify-content: center; 
+  margin-left: 5%;
+  margin-right: 5%;
+  display: block;
+  line-height: 1.4;
+  color: dimgrey;
+ }
+
+
+header{
+    color:black;
+    background-color: #FFF;
+    width: 100%; 
+    height: 180px;
+    position: fixed;
+    text-transform: uppercase;
+    font-size: 16px;
+    vertical-align: midlle;
+    display: inline-block;
+    text-align: center;
+    left: 0px;
+    top:  0px;
+    border-bottom:0px solid #666;
+    border-top:0px solid #666;
+}
+
+header a, header a:visited { 
+text-decoration: none;
+color: black;
+}
+
+a, a:visited, a:hover{ 
+text-decoration: none;
+color: red;
+}
+
+header a:hover { 
+text-decoration: none;
+color: red;
+}
+
+
+header a.h1:hover { 
+text-decoration: none;
+color: black;
+}
+
+.empty{
+ height: 180px;
+ }
+ 
+ 
+ .empty2{
+ height: 200px;
+ }
+ 
+ .button {
+  background-color: #FFF;
+  color: red;
+  border: none;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 0px;
+  cursor: pointer;
+  font-size: 13px;
+  }
+
+.teaching{max-weight: 300px;}
+ 
+@media all and (max-width: 800px){
+  .text-block{
+    width: 90%;
+	height:auto;
+  }
+   img {
+   float: center;
+   width: 80%;
+   	clear: both;
+	height:auto;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: block;
+	 max-width: 275px;
+     vertical-align: middle;
+  }
+   div.show {
+        display: none;
+      }
+    div.hide{
+        display: block;
+      }
+      
+      .empty{height: 200px;}
+       .emptysmall{height: 20px;}
+      .header{height: 200px;}
+      .empty2{height: 120px;}
+      
+}
+</style>
