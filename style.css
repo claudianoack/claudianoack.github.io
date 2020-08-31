@@ -162,6 +162,12 @@ color: black;
 .teaching{max-weight: 300px;}
  
 @media all and (max-width: 800px){
+	
+  div{
+   margin-left: 5%;
+   margin-right: 5%; 
+}
+	
   .text-block{
     width: 90%;
 	height:auto;
