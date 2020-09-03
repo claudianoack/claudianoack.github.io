@@ -10,10 +10,19 @@ body {
   max-width:1000px;
   margin: auto;
   line-height: 1.6;
-  font-size: 13px;
   max-width: 800px;
    }
 
+
+   
+   #myDIV1, #myDIV2  {
+  width: 100%;
+  padding: 0px 0;
+  text-align: center;
+  background-color: #FFF;
+  margin-top: 0px;
+  display: none; 
+}
 
   
    
@@ -23,12 +32,15 @@ h1, h2, h3, h4, h5, h6 {
  weight: 700;
 }
 
+
+h1{
+ text-align: center;
+ justify-content: justify;
+  font-size: 44px;  
+ color:black;
+ }
   
-  
-.contact{
-max-width: 400px;
-color: dimgrey;
-}  
+
   
  img { 
   float: left;
@@ -63,8 +75,6 @@ div.hide {
 
 	
 
-
-
   
  div.same, div.same2, div.same3{
   display: block;
@@ -76,19 +86,15 @@ div.hide {
   line-height: 1.6;
   color: dimgray;
   font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
   }
   
-   div.same2{
-  max-width:800px;
- }
+
    div.same3{
   max-width:100%;
  }
   
 p.ex2 {
   max-width:700px;
-  font-size: 13px;
   text-align: justify;
   justify-content: center; 
   margin-left: 5%;
@@ -103,7 +109,7 @@ header{
     color:black;
     background-color: #FFF;
     width: 100%; 
-    height: 180px;
+    height: 210px;
     position: fixed;
     text-transform: uppercase;
     font-size: 16px;
@@ -114,6 +120,8 @@ header{
     top:  0px;
     border-bottom:0px solid #666;
     border-top:0px solid #666;
+    justify-content: justify;
+font-family: 'Josefin Sans', sans-serif;
 }
 
 header a, header a:visited { 
@@ -138,7 +146,7 @@ color: black;
 }
 
 .empty{
- height: 180px;
+ height: 200px;
  }
  
  
@@ -156,10 +164,13 @@ color: black;
   display: inline-block;
   margin: 0px 0px;
   cursor: pointer;
-  font-size: 13px;
   }
 
 .teaching{max-weight: 300px;}
+
+ 
+ h3{
+ font-size:20px; }
  
 @media all and (max-width: 800px){
 	
@@ -196,4 +207,50 @@ color: black;
       .empty2{height: 120px;}
       
 }
+
+
+@media all and  (min-width: 1700px){
+body{ font-size:16px; }
+
+h1{ font-size: 54px; }
+  
+  header{  font-size: 22px; 
+   height: 260px; }
+ 
+   div{
+  max-width:1000px;
+   }
+
+.empty{
+ height: 250px;
+ }
+ 
+ .teaching{max-width: 1000px;}
+
+  h3{ font-size:25px; }
+
+  
+  p.ex2 {
+  max-width:1000px;}
+ 
+ 
+  .text-block {
+  width: 900px;
+  height: 420px;
+}
+
+
+ img { 
+  width: 300px;
+  height: 420px;
+ max-width: 300px;
+}
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
 </style>
