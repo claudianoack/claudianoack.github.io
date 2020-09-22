@@ -41,11 +41,10 @@ h1{
  }
   
 
-  
- img { 
+  img { 
   float: left;
   width: 245px;
-  height: 350px;
+  height: 325x;
   margin-left: 5%;
   margin-right: 10%;
    display:block;
@@ -59,7 +58,7 @@ h1{
   bottom: 50px;
   display: block;
   width: 740px;
-  height: 350px;
+  height: 325px;
   padding-bottom:10px;
 }
 
