@@ -140,22 +140,31 @@ function myFunction3() {
           [<a href="https://arxiv.org/abs/2107.07942" target="_blank">arxiv</a>]
         </p>
         <div id="myDIV3">
-          <p class="ex2"> Empirical regression discontinuity (RD) studies often
-            use covariates to increase the precision of their estimates. In this
-            paper, we propose a novel class of estimators that use such
-            covariate information more efficiently than the linear adjustment
-            estimators that are currently used widely in practice. Our approach
-            can accommodate a possibly large number of either discrete or
-            continuous covariates. It involves running a standard RD analysis
-            with an appropriately modified outcome variable, which takes the
-            form of the difference between the original outcome and a function
-            of the covariates. We characterize the function that leads to the
-            estimator with the smallest asymptotic variance, and show how it can
-            be estimated via modern machine learning, nonparametric regression,
-            or classical parametric methods. The resulting estimator is easy to
-            implement, as tuning parameters can be chosen as in a conventional
-            RD analysis. An extensive simulation study illustrates the
-            performance of our approach. </p>
+          <p class="ex2"> Empirical regression discontinuity (RD) studies often use covariates to increase the
+                          precision of their estimates. In this paper, we propose a novel class of estimators that use
+                          such covariate information more efficiently than existing methods and can accommodate
+                          many covariates. It involves running a standard RD analysis in which a function of the
+                          covariates has been subtracted from the original outcome variable. We characterize the
+                          function that leads to the estimator with the smallest asymptotic variance, and consider
+                          feasible versions of such estimators in which this function is estimated, for example,
+                          through modern machine learning techniques. </p>
+        </div>
+        <p style="text-align: left;"><span style="font-weight: bold;"> Donut Regression Discontinuity Designs </span>
+          with Christoph Rothe. <br>
+          August 2023, preliminary [<button class="button" onclick="myFunction3()">Abstract</button>]
+          [<a href="https://arxiv.org/abs/2308.14464" target="_blank">arxiv</a>]
+        </p>
+        <div id="myDIV3">
+          <p class="ex2"> We study the econometric properties of so-called donut 
+            regression discontinuity (RD) designs, a robustness exercise which involves 
+            repeating estimation and inference without the data points in some area around 
+            the treatment threshold. This approach is often motivated by concerns that 
+            possible systematic sorting of units, or similar data issues, in some neighborhood 
+            of the treatment threshold might distort estimation and inference of RD treatment effects.
+            We show that donut RD estimators can have substantially larger bias and variance than 
+            contentional RD estimators, and that the corresponding confidence intervals can be substantially longer. 
+            We also provide a formal testing framework for comparing donut and conventional RD estimation results.
+          </p>
         </div>
        </div>
         <p style="text-align: left;">&nbsp;</p>
