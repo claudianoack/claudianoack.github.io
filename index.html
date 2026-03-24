@@ -1,97 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>Claudia Noack</title>
-    <meta name="keywords" content="Claudia Noack,  econometrics, University of Oxford, Nuffield College, Mannheim, causal inference, nonparametric, treatment effects, monotonicity, local average treatment effect, regression discontinuity">
-    <meta name="description" content="Academic home page of Claudia Noack">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans%7CJosefin+Sans"
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claudia Noack</title>
+  <meta name="description" content="Academic home page of Claudia Noack">
+  <meta name="keywords" content="Claudia Noack, econometrics, University of Bonn, causal inference, nonparametric econometrics, treatment effects, regression discontinuity">
 
-      rel="stylesheet">
-    <style type="text/css">  </style>
-     <script>
-function myFunction1() {
-  var x = document.getElementById("myDIV1");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans%7CJosefin+Sans" rel="stylesheet">
 
+  <script>
+    function toggleAbstract(id, button) {
+      const el = document.getElementById(id);
+      const isOpen = el.style.display === "block";
+      el.style.display = isOpen ? "none" : "block";
+      button.setAttribute("aria-expanded", String(!isOpen));
+    }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <h1><a class="site-title" href="index.html">Claudia Noack</a></h1>
+  </header>
 
-function myFunction2() {
-  var x = document.getElementById("myDIV2");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-
-
-function myFunction3() {
-  var x = document.getElementById("myDIV3");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script> </head>
-  <body>
-    <header>
-      <p style="text-align: left;">&nbsp;</p>
-      <h1><a class="h1" href="index.html">CLAUDIA NOACK </a></h1>
-    </header>
-    <section>
-      <div class="show">
-        <p class="empty"> &nbsp; </p>
-        <span style="vertical-align: left"> <img src="picture.jpg" alt="Claudia Noack"></span></div>
-      <div class="hide">
-        <div class="empty2"> &nbsp; </div>
+  <main class="container">
+    <section class="intro">
+      <div class="intro-image">
+        <img src="picture.jpg" alt="Portrait of Claudia Noack">
       </div>
-      <div class="text-block">
-        <p style="text-align: left;">&nbsp;</p>
-        <p style="text-align: left;">&nbsp;</p>
-        <p style="text-align: justify;color: dimgrey;"> Welcome to my webpage! <br>
-          <br>
-        I am an Assistant Professor  at the University of Bonn, Germany.
-        My research interests lie in Econometrics and especially in Causal Inference
-        and Nonparametric Econometrics. I received my Ph.D. in Economics from 
-        the University of Mannheim and I was a postdoctoral fellow at Nuffield College
-        and the Department of Economics of the University of Oxford. </p>
-        <p style="color: dimgrey;"> Email: cnoack[at]uni-bonn.de 
+
+      <div class="intro-text">
+        <p>Welcome to my webpage!</p>
+        <p>
+          I am an Assistant Professor at the University of Bonn, Germany.
+          My research interests lie in Econometrics, especially Causal Inference
+          and Nonparametric Econometrics. I received my Ph.D. in Economics from
+          the University of Mannheim and was a postdoctoral fellow at Nuffield College
+          and the Department of Economics at the University of Oxford.
         </p>
-        <p style="color: dimgrey;"> You can download my CV <a href="cv.pdf" target="_blank">
-            here.</a> </p>
+        <p>Email: <a href="mailto:cnoack@uni-bonn.de">cnoack@uni-bonn.de</a></p>
+        <p>You can download my <a href="cv.pdf" target="_blank" rel="noopener noreferrer">CV here</a>.</p>
       </div>
-      <div class="hide"> <span style="vertical-align: middle"> <img src="picture.jpg"
-
-            alt="Claudia Noack"></span>
-        <div class="empty"> &nbsp; </div>
-        <div class="empty2"> &nbsp; </div>
-        <p style="text-align: left;">&nbsp;</p>
-        <p style="text-align: left;">&nbsp;</p>
-      </div>
-      <p style="text-align: left;">&nbsp;</p>
     </section>
+
     <section>
-      <div>
-        <p style="text-align: left;">&nbsp;</p>
-        <p style="text-align: left;">&nbsp;</p>
-        <h3> Publications </h3>
-        <p style="text-align: justify;"><span style="font-weight: bold;">Bias-Aware
-            Inference in Fuzzy Regression Discontinuity Designs</span> with
-          Christoph Rothe.<br>
-         Econometrica (2024), 92, 687–711 [<button class="button" onclick="myFunction1()">Abstract</button>]
-          [<a href="https://arxiv.org/abs/1906.04631" target="_blank">arxiv</a>]
-      [<a href="https://github.com/claudianoack/claudianoack.github.io/raw/master/FRD_v1.zip" download target="_blank">R software</a>]
-        <div id="myDIV1">
-          <p class="ex2"> The confidence intervals (CIs) commonly reported in
+      <h2>Publications</h2>
+
+      <article class="paper">
+        <p>
+          <strong>Bias-Aware Inference in Fuzzy Regression Discontinuity Designs</strong>
+          with Christoph Rothe.<br>
+          <em>Econometrica</em> (2024), 92, 687–711
+          [<button class="button" onclick="toggleAbstract('abstract-frd', this)" aria-expanded="false" aria-controls="abstract-frd">Abstract</button>]
+          [<a href="https://arxiv.org/abs/1906.04631" target="_blank" rel="noopener noreferrer">arXiv</a>]
+          [<a href="https://github.com/claudianoack/claudianoack.github.io/raw/master/FRD_v1.zip" download>R software</a>]
+        </p>
+        <div id="abstract-frd" class="abstract">
+          <p>
+            The confidence intervals (CIs) commonly reported in
             empirical fuzzy regression discontinuity studies are justified by
             theoretical arguments which assume that the running variable is
             continuously distributed with positive density around the cutoff,
@@ -107,19 +75,25 @@ function myFunction3() {
             designs, and weak identification. But our CS also perform favorably
             relative to existing CIs in the canonical setting with a continuous
             running variable, and can thus be used in all fuzzy regression
-            discontinuity applications.</p>
+            discontinuity applications.
+          </p>
         </div>
-         <p style="text-align: left;">&nbsp;</p>
-        <h3> Working Papers </h3>
-              
-        <p style="text-align: left;"><span style="font-weight: bold;">Sensitivity
-            Analysis of LATE Estimates to a Violation of the Monotonicity
-            Assumption.</span> <br>
-          July 2021 [<button class="button" onclick="myFunction2()">Abstract</button>]
-          [<a href="https://arxiv.org/abs/2106.06421" target="_blank">arxiv</a>]
+      </article>
+    </section>
+
+    <section>
+      <h2>Working Papers</h2>
+
+      <article class="paper">
+        <p>
+          <strong>Sensitivity Analysis of LATE Estimates to a Violation of the Monotonicity Assumption</strong>.<br>
+          2026
+          [<button class="button" onclick="toggleAbstract('abstract-late', this)" aria-expanded="false" aria-controls="abstract-late">Abstract</button>]
+          [<a href="https://arxiv.org/abs/2106.06421" target="_blank" rel="noopener noreferrer">arXiv</a>]
         </p>
-        <div id="myDIV2">
-          <p class="ex2"> This paper presents a method to assess the sensitivity
+        <div id="abstract-late" class="abstract">
+          <p>
+           This paper presents a method to assess the sensitivity
             of treatment effect estimates to potential violations of the
             monotonicity assumption. I propose a model in which the degree to
             which monotonicity is violated is measured by two sensitivity
@@ -134,32 +108,45 @@ function myFunction3() {
             estimates, where confidence sets are obtained through a bootstrap
             method. The performance of the breakdown frontier estimator is
             evaluated in a Monte Carlo study and illustrated in an empirical
-            example.</p>
+            example.
+          </p>
         </div>
-        <p style="text-align: left;"><span style="font-weight: bold;"> Flexible
-            Covariate Adjustments in Regression Discontinuity Designs </span>
-          with Tomasz Olma and Christoph Rothe. <br>
-          December 2024, under revision [<button class="button" onclick="myFunction3()">Abstract</button>]
-          [<a href="https://arxiv.org/abs/2107.07942" target="_blank">arxiv</a>]
-          [<a href="https://docs.doubleml.org/stable/guide/models.html#regression-discontinuity-designs-rdd" target="_blank">Implementation in DoubleML</a>] </p>
+      </article>
+
+      <article class="paper">
+        <p>
+          <strong>Flexible Covariate Adjustments in Regression Discontinuity Designs</strong>
+          with Tomasz Olma and Christoph Rothe.<br>
+          2025
+          [<button class="button" onclick="toggleAbstract('abstract-covariates', this)" aria-expanded="false" aria-controls="abstract-covariates">Abstract</button>]
+          [<a href="https://arxiv.org/abs/2107.07942" target="_blank" rel="noopener noreferrer">arXiv</a>]
+          [<a href="https://docs.doubleml.org/stable/guide/models.html#regression-discontinuity-designs-rdd" target="_blank" rel="noopener noreferrer">Implementation in DoubleML</a>]
         </p>
-        <div id="myDIV3">
-          <p class="ex2"> Empirical regression discontinuity (RD) studies often use covariates to increase the
+        <div id="abstract-covariates" class="abstract">
+          <p>
+            Empirical regression discontinuity (RD) studies often use covariates to increase the
                           precision of their estimates. In this paper, we propose a novel class of estimators that use
                           such covariate information more efficiently than existing methods and can accommodate
                           many covariates. It involves running a standard RD analysis in which a function of the
                           covariates has been subtracted from the original outcome variable. We characterize the
                           function that leads to the estimator with the smallest asymptotic variance, and consider
                           feasible versions of such estimators in which this function is estimated, for example,
-                          through modern machine learning techniques. </p>
+                          through modern machine learning techniques.
+          </p>
         </div>
-        <p style="text-align: left;"><span style="font-weight: bold;"> Donut Regression Discontinuity Designs </span>
-          with Christoph Rothe. <br>
-          August 2023, preliminary [<button class="button" onclick="myFunction3()">Abstract</button>]
-          [<a href="https://arxiv.org/abs/2308.14464" target="_blank">arxiv</a>]
+      </article>
+
+      <article class="paper">
+        <p>
+          <strong>Donut Regression Discontinuity Designs</strong>
+          with Christoph Rothe.<br>
+          2026
+          [<button class="button" onclick="toggleAbstract('abstract-donut', this)" aria-expanded="false" aria-controls="abstract-donut">Abstract</button>]
+          [<a href="https://arxiv.org/abs/2308.14464" target="_blank" rel="noopener noreferrer">arXiv</a>]
         </p>
-        <div id="myDIV3">
-          <p class="ex2"> We study the econometric properties of so-called donut 
+        <div id="abstract-donut" class="abstract">
+          <p>
+            We study the econometric properties of so-called donut 
             regression discontinuity (RD) designs, a robustness exercise which involves 
             repeating estimation and inference without the data points in some area around 
             the treatment threshold. This approach is often motivated by concerns that 
@@ -170,16 +157,38 @@ function myFunction3() {
             We also provide a formal testing framework for comparing donut and conventional RD estimation results.
           </p>
         </div>
-       </div>
-        <p style="text-align: left;">&nbsp;</p>
-        <p style="text-align: left;">&nbsp;</p>
-        <p style="text-align: left;">&nbsp;</p>
-      <!-- include footer here -->
-        <div class="footer" align="right">
-            <p id="disclaimer">
-                <a href="/disclaimer.html">Disclaimer</a>
-            </p>
+      </article>
+
+
+
+        <article class="paper">
+        <p>
+          <strong>Inference in Regression Discontinuity Designs with Clustered Data </strong>
+          with Tomasz Olma and Christoph Rothe.<br>
+          2026
+          [<button class="button" onclick="toggleAbstract('abstract-donut', this)" aria-expanded="false" aria-controls="abstract-donut">Abstract</button>]
+          [<a href="https://arxiv.org/pdf/2603.18870" target="_blank" rel="noopener noreferrer">arXiv</a>]
+        </p>
+        <div id="abstract-donut" class="abstract">
+          <p>
+            Clustered sampling is prevalent in empirical regression discontinuity (RD) designs, but it has not received much attention in the theoretical literature. In this
+paper, we introduce a general model-based framework for such settings and derive high-level conditions under which the standard local linear RD estimator is
+asymptotically normal. We verify that our high-level assumptions hold across a
+wide range of empirical designs, including settings of growing cluster sizes. We
+further show that clustered standard errors that are currently used in practice can
+be either inconsistent or overly conservative in finite samples. To address these
+issues, we propose a novel nearest-neighbor-type variance estimator and illustrate
+its properties in a diverse set of empirical applications.
+          </p>
         </div>
+      </article>
     </section>
-  </body>
+
+    <footer class="site-footer">
+      <p><a href="/disclaimer.html">Disclaimer</a></p>
+    </footer>
+  </main>
+</body>
 </html>
+
+
